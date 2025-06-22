@@ -11,8 +11,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import Header from '../components/header';
-import Footer from '../components/footer';
+
 
 const cloudName = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME;
 
