@@ -87,7 +87,7 @@ const { id } = useParams(); // ✅ Correct param name
   if (!item) {
     return (
       <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-black via-purple-900 to-indigo-900 text-red-400">
-        <Header />
+       
         <div className="flex-grow flex justify-center items-center text-center">
           <p className="text-xl font-semibold">Item data could not be retrieved.</p>
         </div>
